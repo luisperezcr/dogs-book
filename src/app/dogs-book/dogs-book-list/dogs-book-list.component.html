@@ -1,0 +1,7 @@
+<article>
+  @for (dog of dogsService.dogs; track $index) {
+    <app-dogs-book-card [dog]="dog" [index]="$index + 1"></app-dogs-book-card>
+  } @empty {
+    Empty list of users
+  }
+</article>
