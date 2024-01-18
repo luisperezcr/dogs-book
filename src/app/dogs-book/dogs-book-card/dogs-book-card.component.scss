@@ -1,0 +1,17 @@
+.dog-card {
+  max-width: 400px;
+  height: 465px;
+
+  .see-more-btn {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+
+  img {
+    width: 100%;
+    max-height: 350px;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+}
